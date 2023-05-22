@@ -1,14 +1,22 @@
 * {
-    flex: auto;
-    text-align: center;
+  flex: auto;
+  text-align: center;
 }
+body {
+  background-color: black;
+}
+
+video {
+  border-color: #7ee7ff;
+  border-style: unset;
+}
+
 header {
   background-color: blueviolet;
 }
 h1 {
-    color: cyan
+  color: cyan;
 }
 footer {
-background-color: aquamarine;
-
+  background-color: aquamarine;
 }
