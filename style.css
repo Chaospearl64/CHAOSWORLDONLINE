@@ -1,0 +1,10 @@
+* {
+    flex: auto;
+    text-align: center;
+}
+header {
+  background-color: blueviolet;
+}
+h1 {
+    color: cyan
+}
