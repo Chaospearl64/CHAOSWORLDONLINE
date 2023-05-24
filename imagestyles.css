@@ -10,6 +10,7 @@ nav {
     margin: 10px;
     justify-content: space-around;
     align-items: center;
+    height: 50px;
 }
 
 ul {
@@ -42,14 +43,26 @@ h1 {
 }
 
 .image-previews {
-    margin: 5%;
-    padding: 10%;
     display: flex;
     flex-wrap: wrap;
     width: 90vw;
+    margin-top: 10%;
 } 
 
 .small-pic:hover {
-    border: 3px solid rgb(103, 33, 168);
     cursor: pointer;
+}
+
+.timer {
+    color: red;
+    text-align: center;
+    font-size: x-large;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5%;
 }
