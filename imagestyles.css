@@ -9,6 +9,7 @@ nav {
     padding: 5px;
     margin: 10px;
     justify-content: space-around;
+    align-items: center;
 }
 
 ul {
@@ -31,4 +32,24 @@ a {
 
 h1 {
     color: aqua;
+}
+
+.image-section {
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    flex-direction: column;
+}
+
+.image-previews {
+    margin: 5%;
+    padding: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+} 
+
+.small-pic:hover {
+    border: 3px solid rgb(103, 33, 168);
+    cursor: pointer;
 }
